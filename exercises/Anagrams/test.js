@@ -1,6 +1,6 @@
 
 
-fdescribe('Anagrams function', () => {
+describe('Anagrams function', () => {
   it('should exists', () => {
     expect(anagrams).toBeDefined();
     expect(typeof anagrams).toEqual('function');
