@@ -32,16 +32,17 @@ Series of interesting JavaScript exercises that I solved during my education. Fo
 
 ## Installation
 
-Clone the repo.
+Clone the repo and install local dependencies.
 
 ```bash
 $ git clone https://github.com/colthreepv/javascript-exercises.git
+$ npm install
 ```
 
-Install Jest globally.
+Install Karma globally.
 
 ```bash
-$ npm install -g jest
+$ npm install -g karma-cli
 ```
 
 ---

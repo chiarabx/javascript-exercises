@@ -1,4 +1,4 @@
-const fizzBuzz = require('./index');
+
 
 describe('FizzBuzz function', () => {
   beforeEach(() => {
@@ -9,18 +9,18 @@ describe('FizzBuzz function', () => {
     console.log.mockRestore();
   });
 
-  test('should exists', () => {
+  it('should exists', () => {
     expect(fizzBuzz).toBeDefined();
     expect(typeof fizzBuzz).toEqual('function');
   });
 
-  test('should prints out 5 statements when called with 5', () => {
+  it('should prints out 5 statements when called with 5', () => {
     fizzBuzz(5);
 
     expect(console.log.mock.calls.length).toEqual(5);
   });
 
-  test('should prints out the correct values', () => {
+  it('should prints out the correct values', () => {
     fizzBuzz(15);
 
     expect(console.log.mock.calls[0][0]).toEqual(1);

@@ -13,4 +13,4 @@ function vowels(string) {
 
 }
 
-module.exports = vowels;
+

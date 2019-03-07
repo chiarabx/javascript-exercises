@@ -1,19 +1,19 @@
-const Queue = require('./index');
+
 
 describe('Queue class', () => {
-  test('should be a class', () => {
+  it('should be a class', () => {
     expect(Queue).toBeDefined();
     expect(typeof Queue.prototype.constructor).toEqual('function');
   });
 
-  test('should be able to add elements to a queue', () => {
+  it('should be able to add elements to a queue', () => {
     const q = new Queue();
     expect(() => {
       q.add(1);
     }).not.toThrow();
   });
 
-  test('should be able to remove elements from a queue', () => {
+  it('should be able to remove elements from a queue', () => {
     const q = new Queue();
     expect(() => {
       q.add(1);
@@ -21,7 +21,7 @@ describe('Queue class', () => {
     }).not.toThrow();
   });
 
-  test('should have maintained order of its elements', () => {
+  it('should have maintained order of its elements', () => {
     const q = new Queue();
     q.add(1);
     q.add(2);

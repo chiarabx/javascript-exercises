@@ -1,12 +1,12 @@
-const maxChar = require('./index');
+
 
 describe('MaxChar function', () => {
-  test('should exists', () => {
+  it('should exists', () => {
     expect(maxChar).toBeDefined();
     expect(typeof maxChar).toEqual('function');
   });
 
-  test('should find the most commonly used char in passed string', () => {
+  it('should find the most commonly used char in passed string', () => {
     expect(maxChar('a')).toEqual('a');
     expect(maxChar('abcdefghijklmnaaaaa')).toEqual('a');
     expect(maxChar('ab1c1d1e1f1g1')).toEqual('1');

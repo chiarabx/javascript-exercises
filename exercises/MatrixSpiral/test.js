@@ -1,19 +1,19 @@
-const matrix = require('./index');
+
 
 describe('Matrix function', () => {
-  test('should exists', () => {
+  it('should exists', () => {
     expect(matrix).toBeDefined();
     expect(typeof matrix).toEqual('function');
   });
 
-  test('should produce a 2x2 array', () => {
+  it('should produce a 2x2 array', () => {
     const m = matrix(2);
     expect(m.length).toEqual(2);
     expect(m[0]).toEqual([1, 2]);
     expect(m[1]).toEqual([4, 3]);
   });
 
-  test('should produce a 3x3 array', () => {
+  it('should produce a 3x3 array', () => {
     const m = matrix(3);
     expect(m.length).toEqual(3);
     expect(m[0]).toEqual([1, 2, 3]);
@@ -21,7 +21,7 @@ describe('Matrix function', () => {
     expect(m[2]).toEqual([7, 6, 5]);
   });
 
-  test('should produce a 4x4 array', () => {
+  it('should produce a 4x4 array', () => {
     const m = matrix(4);
     expect(m.length).toEqual(4);
     expect(m[0]).toEqual([1, 2, 3, 4]);

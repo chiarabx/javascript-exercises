@@ -16,10 +16,8 @@
  * q.remove(); // returns 2
  */
 
-const Stack = require('./stack');
-
-class Queue {
+class QueueFromStacks {
 
 }
 
-module.exports = Queue;
+

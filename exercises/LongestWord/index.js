@@ -16,4 +16,4 @@ function longestWord(sen) {
 
 }
 
-module.exports = longestWord;
+

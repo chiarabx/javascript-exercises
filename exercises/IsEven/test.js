@@ -1,12 +1,12 @@
-const isEven = require('./index');
+
 
 describe('IsEven function', () => {
-  test('should exists', () => {
+  it('should exists', () => {
     expect(isEven).toBeDefined();
     expect(typeof isEven).toEqual('function');
   });
 
-  test('should return true if passed number is even and false if is not', () => {
+  it('should return true if passed number is even and false if is not', () => {
     expect(isEven(234)).toBeTruthy();
     expect(isEven(33)).toBeFalsy();
     expect(isEven(-2)).toBeTruthy();
