@@ -35,7 +35,7 @@ Series of interesting JavaScript exercises that I solved during my education. Fo
 Clone the repo.
 
 ```bash
-$ git clone https://github.com/appalaszynski/javascript-exercises.git
+$ git clone https://github.com/colthreepv/javascript-exercises.git
 ```
 
 Install Jest globally.
@@ -70,26 +70,26 @@ You can also run Jest in watch mode by adding `--watch` flag.
 
 ## Exercises
 
-- [Reverse String](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/ReverseString/index.js)
-- [Palindrome](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/Palindrome/index.js)
-- [Reverse Integer](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/ReverseInteger/index.js)
-- [Longest Word](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/LongestWord/index.js)
-- [Is Even](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/IsEven/index.js)
-- [Max Char](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/MaxChar/index.js)
-- [Anagrams](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/Anagrams/index.js)
-- [FizzBuzz](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/FizzBuzz/index.js)
-- [Array Chunk](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/ArrayChunk/index.js)
-- [Capitalize](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/Capitalize/index.js)
-- [Fib](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/Fib/index.js)
-- [Matrix Spiral](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/MatrixSpiral/index.js)
-- [Max Char](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/MaxChar/index.js)
-- [Pyramid](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/Pyramid/index.js)
-- [Queue](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/Queue/index.js)
-- [Stack](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/Stack/index.js)
-- [Queue from Stacks](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/QueueFromStacks/index.js)
-- [Steps](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/Steps/index.js)
-- [Vowels](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/Vowels/index.js)
-- [Weave](https://github.com/appalaszynski/javascript-exercises/blob/master/exercises/Weave/index.js)
+- [Reverse String](exercises/ReverseString/index.js)
+- [Palindrome](exercises/Palindrome/index.js)
+- [Reverse Integer](exercises/ReverseInteger/index.js)
+- [Longest Word](exercises/LongestWord/index.js)
+- [Is Even](exercises/IsEven/index.js)
+- [Max Char](exercises/MaxChar/index.js)
+- [Anagrams](exercises/Anagrams/index.js)
+- [FizzBuzz](exercises/FizzBuzz/index.js)
+- [Array Chunk](exercises/ArrayChunk/index.js)
+- [Capitalize](exercises/Capitalize/index.js)
+- [Fib](exercises/Fib/index.js)
+- [Matrix Spiral](exercises/MatrixSpiral/index.js)
+- [Max Char](exercises/MaxChar/index.js)
+- [Pyramid](exercises/Pyramid/index.js)
+- [Queue](exercises/Queue/index.js)
+- [Stack](exercises/Stack/index.js)
+- [Queue from Stacks](exercises/QueueFromStacks/index.js)
+- [Steps](exercises/Steps/index.js)
+- [Vowels](exercises/Vowels/index.js)
+- [Weave](exercises/Weave/index.js)
 
 ---
 
