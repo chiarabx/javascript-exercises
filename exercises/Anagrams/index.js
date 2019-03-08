@@ -13,7 +13,12 @@
  */
 
 function anagrams(stringA, stringB) {
-
+    stringA = stringA.split('').sort().toString().toLowerCase().replace(/[.,!*+?^${}()|[\]\\]/g, "")
+    stringB = stringB.split('').sort().toString().toLowerCase().replace(/[.,!*+?^${}()|[\]\\]/g, "")
+    console.log(stringA)
+    console.log(stringB)
+    return(stringA == stringB ? true : false)
 }
 
+console.log(anagrams('palo', 'opla'))
 

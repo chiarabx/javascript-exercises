@@ -12,8 +12,41 @@
  * chunk([1, 2, 3, 4, 5], 10) === [[ 1, 2, 3, 4, 5]]
  */
 
-function chunk(array, size) {
+// let array = [1, 2, 3, 4, 5]
 
+
+
+// chunk(array, 4)
+//const controllo = [[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]]
+//const arr = [1, 2, 3];
+
+// const chunked = chunk(arr, 1)
+// console.log(chunked)
+
+
+// function chunkRec(arr, size, result) {
+//     if (!arr[0]) return result
+//     else {
+//         result.push(arr.splice(0, size))
+//         return chunkRec(arr,size, result)
+//     }
+// }
+
+// function chunk(arr, size) {
+//     //let newArr = []
+//     return chunkRec(arr, size, [])
+// }
+
+function chunk(arr, size, result) {
+    if (result === undefined) result = []
+    if (!arr[0]) return result
+    else {
+        result.push(arr.splice(0, size))
+        return chunk(arr,size, result)
+    }
 }
+
+
+
 
 

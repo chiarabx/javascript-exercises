@@ -15,8 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'exercises/**/index.js',
-      'exercises/**/test.js'
+      'exercises/ArrayChunk/index.js',
+      'exercises/ArrayChunk/test.js'
     ],
 
 
